@@ -8,7 +8,6 @@ header, body, footer {
     margin: auto;
     padding: 92px 50px;
     max-width: 1440px;
-    grid-template-columns: 1fr, min-content, 1fr;
     align-items: center;
     justify-content : space-between;
 }
@@ -32,7 +31,6 @@ header, body, footer {
     font-weight: 400;
     line-height: normal;
     list-style-type: circle;
-    text-underline-offset: 5px;
 }
 
 .header__links-list :first-child {
@@ -104,7 +102,6 @@ header, body, footer {
     position: relative;
     flex-wrap: wrap;
     color: white;
-    gap: 20px;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -315,7 +312,6 @@ header, body, footer {
     display: flex;
     margin: 0 120px 350px 145px;
     padding: 0;
-    justify-self: center;
     justify-content: center;
     align-items: center;
     min-width: 240px;

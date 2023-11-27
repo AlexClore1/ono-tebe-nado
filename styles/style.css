@@ -67,6 +67,7 @@ header, body, footer {
     font-weight: 400;
     line-height: 24.3px;
     color: black;
+    max-width: 240px;
 }
 
 .cover {
@@ -113,24 +114,20 @@ header, body, footer {
     letter-spacing: 30px;
     display: block;
     width: 100%;
-    z-index: 2;
     margin-bottom: 20px;
     flex-basis: 100%;
-    text-transform: uppercase;
 }
   
 .extended-letter {
     margin: 0;
     padding: 0;
     letter-spacing: 60px;
-    text-transform: uppercase;
 }
   
 .last-letter {
     margin: 0;
     padding: 0;
     letter-spacing: 0;
-    text-transform: uppercase;
 }
   
 .aligned-text-center {
@@ -138,23 +135,19 @@ header, body, footer {
     padding: 0;
     letter-spacing: 30px;
     text-align: center;
-    line-height: 100%;
     display: block;
     margin-bottom: 20px;
     flex-basis: 100%;
-    text-transform: uppercase;
 }
   
   .aligned-text-right {
     margin: 0;
     padding: 0;
     letter-spacing: 30px;
-    line-height: 100%;
     display: block;
     text-align: right;
     margin-bottom: 135px;
     flex-basis: 100%;
-    text-transform: uppercase;
 }
 
 .basement__position {
@@ -170,7 +163,7 @@ header, body, footer {
     position: relative;
     padding-right: 75px;
     text-align: right;
-    word-spacing: 19px;
+    word-spacing: 18px;
     align-self: center;
     flex-grow: 1;
     color: #FFF;
@@ -202,7 +195,7 @@ header, body, footer {
 .lots {
     display: flex;
     position: relative;
-    margin: 0 auto;
+    margin: 0 0 0 50px;
     padding: 180px 50px 0;
     width: 1340px;
     flex-direction: column;
@@ -240,17 +233,15 @@ header, body, footer {
     flex-shrink: 0;
 }
 
-.lots__lot-Thomas-Anderson {
+.lots__lot-thomas-anderson {
     background-image: url(../images/card-lot-01.jpg);
 }
 
-.lots__lot-Homer {
+.lots__lot-homer {
     background-image: url(../images/card-lot-02.jpg);
 }
 
-.lots__lot-Kandinsky {
-    margin: 0;
-    padding: 0;
+.lots__lot-kandinsky {
     background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -323,8 +314,11 @@ header, body, footer {
 }
 
 .about__text {
+    display: flex;
+    flex-direction: column;
     margin: 100px 50px 1px 0;
     color: black;
+    gap: 25px;
 }
 
 .about__title {
@@ -335,7 +329,7 @@ header, body, footer {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin: 0 0 100px 0;
+    margin: 0 0 75px 0;
 }
 
 .about__subtitle {
@@ -349,7 +343,7 @@ header, body, footer {
 }
 
 .footer {
-    margin: 180px 50px 90px;
+    margin: 0 50px 90px;
     padding: 0;
     min-width: 1340px;
     display: flex;
@@ -374,9 +368,13 @@ header, body, footer {
 
 .footer__icon {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 0;
     padding: 0;
     width: 240px;
     height: 48px;
+}
+
+.footer__icon-href {
+    display: flex;
 }

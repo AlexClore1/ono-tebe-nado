@@ -108,46 +108,33 @@ header, body, footer {
 }
 
 .aligned-text {
-    margin: 0;
-    padding: 0;
     line-height: 115%;
     letter-spacing: 30px;
     display: block;
     width: 100%;
     margin-bottom: 20px;
-    flex-basis: 100%;
 }
   
 .extended-letter {
-    margin: 0;
-    padding: 0;
     letter-spacing: 60px;
 }
   
 .last-letter {
-    margin: 0;
-    padding: 0;
     letter-spacing: 0;
 }
   
 .aligned-text-center {
-    margin: 0;
-    padding: 0;
     letter-spacing: 30px;
     text-align: center;
     display: block;
     margin-bottom: 20px;
-    flex-basis: 100%;
 }
   
-  .aligned-text-right {
-    margin: 0;
-    padding: 0;
+.aligned-text-right {
     letter-spacing: 30px;
     display: block;
     text-align: right;
     margin-bottom: 135px;
-    flex-basis: 100%;
 }
 
 .basement__position {
@@ -195,10 +182,14 @@ header, body, footer {
 .lots {
     display: flex;
     position: relative;
-    margin: 0 0 0 50px;
-    padding: 180px 50px 0;
+    margin: 0 auto;
+    padding: 180px 0 0;
     width: 1340px;
     flex-direction: column;
+}
+
+.lots__lot-href {
+    text-decoration: none;
 }
 
 .lots__title {
@@ -285,7 +276,7 @@ header, body, footer {
 }
 
 .section__about {
-    margin: 181px 0 0;
+    margin: 181px auto 0;
     padding: 0;
     display: flex;
     position: relative;
@@ -295,7 +286,7 @@ header, body, footer {
 
 .about__logo {
     display: flex;
-    margin: 0 120px 350px 145px;
+    margin: 0 120px 248px 95px;
     padding: 0;
     justify-content: center;
     align-items: center;
@@ -343,7 +334,7 @@ header, body, footer {
 }
 
 .footer {
-    margin: 0 50px 90px;
+    margin: 180px 50px 90px;
     padding: 0;
     min-width: 1340px;
     display: flex;

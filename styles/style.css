@@ -49,9 +49,9 @@ header, body, footer {
 }
 
 .logo {
-    padding: 0 340px 0 209px;
-    width: 240px;
-    height: 97px;
+    margin: 0 355px 4px 209px;
+    width: 148px;
+    height: 105px;
 }
 
 .address {
